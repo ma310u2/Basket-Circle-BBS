@@ -1,0 +1,53 @@
+@media all and (max-width: 1000px) {
+    #page-title h1 {
+        font-size: 50px;
+        max-width: 560px;
+    }
+    #top-image {
+        max-width: 560px;
+    }
+    #main {
+        margin: 20px auto 0;
+        /* max-width: none; */
+        float: none;
+    }
+
+    #side {
+        float: none;
+        margin: 30px auto 50px;
+        max-width: 560px;
+    }
+
+}
+
+/* スマホ向けレイアウト */
+
+@media all and (max-width: 750px) {
+    #page-title h1 {
+        font-size: 35px;
+    }
+
+    #page-title span {
+        font-size: 25px;
+    }
+
+    #main h2 {
+        font-size: 20px;
+    }
+
+    .map {
+        height: 275px;
+    }
+
+    #main p {
+        font-size: 15px;
+        margin: 0 0 10px 15px;
+    }
+
+    .map iframe {
+        margin: 0px 0 35px;
+        width: 200px;
+        height: 200px;
+    }
+
+}
