@@ -30,24 +30,45 @@
     #page-title span {
         font-size: 25px;
     }
-
+    #main {
+        border: none;
+        padding: 0px;
+    }
     #main h2 {
         font-size: 20px;
     }
+    #main p {
+        font-size: 15px;
+        margin: 0 15px 10px 15px;
+        text-align: justify;
+    }
+
+    #top-image {
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .bxslider img {
+        height: 200px;
+    }
+
 
     .map {
         height: 275px;
     }
 
-    #main p {
-        font-size: 15px;
-        margin: 0 0 10px 15px;
+    .map-text {
+        float: none;
     }
 
     .map iframe {
         margin: 0px 0 35px;
-        width: 200px;
+        width: 100%;
         height: 200px;
+    }
+    
+    #side{
+        border: none;
     }
 
 }
