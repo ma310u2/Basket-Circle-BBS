@@ -64,7 +64,8 @@ body {
 #main p {
     font-size: 18px;
     line-height: 2;
-    margin: 0 0 50px 15px;
+    margin-bottom:50px;
+    margin-left: 15px;
 }
 
 /*マップ*/
