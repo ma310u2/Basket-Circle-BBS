@@ -71,7 +71,7 @@ body {
 #main p {
     font-size: 18px;
     line-height: 2;
-    margin-bottom:50px;
+    /* margin-bottom:50px; */
     margin-left: 15px;
 }
 
@@ -80,18 +80,29 @@ body {
 .map {
     height: 350px;
     margin-bottom: 35px;
+    display: flex;
 }
 
 .map iframe {
-    float: right;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .map-text {
-    float: left;
     font-size: 18px;
+    width: 210px;
 }
-
+#google-map {
+     color: #E18E10;
+     text-decoration:none;
+     display:inline-block;
+     padding:15px;
+     margin-left: 15px;
+}
+#google-map:hover{
+    color: #FFD18B;
+    background-color: #E18E10;
+    border-radius: 5px;
+}
 /*サイド*/
 
 #side {
